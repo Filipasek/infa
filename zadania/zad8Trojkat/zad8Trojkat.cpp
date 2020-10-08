@@ -10,6 +10,7 @@ void paintRows(int n)
     }
     cout << endl;
 }
+
 void paintTriangle(int size)
 {
     for (int i = size; i > 0; i--)
@@ -17,6 +18,7 @@ void paintTriangle(int size)
         paintRows(i);
     }
 }
+
 int main()
 {
     int size;
