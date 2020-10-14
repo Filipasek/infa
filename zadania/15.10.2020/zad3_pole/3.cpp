@@ -3,10 +3,10 @@
 
 using namespace std;
 
-long long int pole(double a, double b){
+long long int pole(float a, float b){
     return ceil(a*b);
 }
-long long int pole(double a){
+long long int pole(float a){
     return ceil(a*a);
 }
 
