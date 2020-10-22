@@ -2,11 +2,13 @@
 using namespace std;
 
 int obliczNWD(int a, int b){ //a%
+    int n = 0;
     int placeholder;
     while(b != 0){
         placeholder = a;
         a = b;
         b = placeholder%b;
+        n++;
     }
     return a;
 }
