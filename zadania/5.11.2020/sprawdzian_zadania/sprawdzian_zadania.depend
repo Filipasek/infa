@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1604527135 source:d:\pliki\szkola\infa\zadania\5.11.2020\sprawdzian_zadania\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+
