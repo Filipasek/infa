@@ -1,49 +1,67 @@
 #include <iostream>
+#include <iomanip>
 #include <cstdlib>
 #include <ctime>
-
 using namespace std;
+
+
+int a,b,m,n,liczba,wiersz;
 int main()
 {
-    srand(time(NULL));
-    int m, n, a, b, row;
-    cout<<"Wprowadz m i n: "; cin>>m>>n;
+srand(time(NULL));
+cout<<"Wprowadz liczby m i n"<<endl;
+cin>>m;
+cin>>n;
 
-    int T[m][n];
+cout<<"Wprowadz zakres liczb do losowania"<<endl;
+cin>>a;
+cin>>b;
 
-    cout<<endl<<"Od jakiej liczby chcesz wylosowac zakres: "; cin >> a;
-    cout<<endl<<"Do jakiej: "; cin>>b;
+int T[m][n];
 
-    for(int i = 0; i < m; i++){
-        for(int l = 0; l < n; l++){
-            T[i][l] = (rand()&(b-a))+a;
+for(int i=0;i<m;i++)
+    {
+        for(int j=0;j< n;j++)
+        {
+            T[i][j]=(rand()&(b-a))+a;
         }
     }
-    for(int i = 0; i< m; i++){
+    for(int i= 0;i<m;i++)
+    {
         cout<<endl<<endl<<"Wiersz "<<i<<": "<<endl;
-        for(int l = 0; l < n; l++){
-            cout<<T[i][l]<<"  ";
+        for(int j=0;j<n;j++)
+        {
+            cout<<T[i][j]<<"  ";
         }
     }
-    cout<<endl<<"Ktory wiersz chcesz usunac: "; cin>>row;
-    if(row >= m){
-        cout<<endl<<"Zbyt duza liczba!";
+    cout<<endl<<"Ktory wiersz chcesz usunac: "<<endl;
+    cin>>wiersz;
+    if(wiersz>=m)
+        {
+        cout<<endl<<"za duzo";
         return 0;
     }
-    for(int i = row; i < m; i++){
-        for(int l = 0; l<n; l++){
-            if( i == m-1){
-                T[i][l] = 0;
-            }else{
-                T[i][l] = T[i+1][l];
+    for(int i=wiersz;i<m;i++)
+        {
+        for(int j=0;j<n;j++)
+        {
+            if( i == m-1)
+            {
+               T[i][j] = 0;
+            }
+    else
+            {
+                T[i][j] = T[i+1][j];
             }
 
         }
     }
-    for(int i = 0; i < m; i++){
-        cout<<endl<<endl<<"Wiersz "<<i<<": "<<endl;
-        for(int l = 0; l < n; l++){
-            cout<<T[i][l]<<"  ";
+    for(int i=1; i<m;i++)
+        {
+        cout<<endl<<endl<<"Wiersz nr :"<<i<<endl;
+        for(int j=0;j<n;j++)
+        {
+            cout<<T[i][j]<<"  ";
         }
     }
     return 0;

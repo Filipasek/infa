@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1604568432 source:d:\pliki\szkola\infa\sprawdzian\aktualne\main.cpp
+1604570414 source:d:\pliki\szkola\infa\sprawdzian\aktualne\main.cpp
 	<iostream>
+	<iomanip>
 	<cstdlib>
 	<ctime>
 
