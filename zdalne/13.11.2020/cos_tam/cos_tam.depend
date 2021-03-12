@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1605252649 source:d:\pliki\szkola\infa\zdalne\13.11.2020\cos_tam\main.cpp
+	<cstdlib>
+	<iostream>
+	<iomanip>
+

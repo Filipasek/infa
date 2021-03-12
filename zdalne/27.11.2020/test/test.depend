@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1608227429 source:d:\pliki\szkola\infa\zdalne\27.11.2020\test\main.cpp
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<ctime>
+

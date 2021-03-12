@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1606332333 source:d:\pliki\szkola\infa\zdalne\20.11.2020\rwegoihwe\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+

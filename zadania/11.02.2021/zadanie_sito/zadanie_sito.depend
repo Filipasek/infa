@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1613033407 source:d:\pliki\szkola\infa\zadania\11.02.2021\zadanie_sito\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+
