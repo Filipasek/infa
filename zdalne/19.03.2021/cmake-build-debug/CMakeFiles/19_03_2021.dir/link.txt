@@ -1,0 +1,3 @@
+D:\Toolbox\apps\CLion\ch-0\203.7717.62\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\19_03_2021.dir/objects.a
+D:\Programy(x86)\CodeBlocks\MinGW\bin\ar.exe cr CMakeFiles\19_03_2021.dir/objects.a @CMakeFiles\19_03_2021.dir\objects1.rsp
+D:\Programy(x86)\CodeBlocks\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\19_03_2021.dir/objects.a -Wl,--no-whole-archive  -o 19_03_2021.exe -Wl,--out-implib,lib19_03_2021.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\19_03_2021.dir\linklibs.rsp
