@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1618560566 source:d:\pliki\szkola\infa\zdalne\16.04.2021\anagramy\main.cpp
+	<iostream>
+	<algorithm>
+	<fstream>
+
