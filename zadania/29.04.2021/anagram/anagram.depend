@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1619681569 source:d:\pliki\szkola\infa\zadania\29.04.2021\anagram\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<iomanip>
+	<string>
+
